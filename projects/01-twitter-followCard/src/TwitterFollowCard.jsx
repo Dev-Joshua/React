@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+// Funcion para renderizar el componente
+// eslint-disable-next-line react/prop-types
 export function TwitterFollowCard({ children, userName, initialIsFollowing }) {
   //Uso de hooks con useState
   const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
